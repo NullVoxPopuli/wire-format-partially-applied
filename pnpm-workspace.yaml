@@ -1,0 +1,3 @@
+packages:
+  - 'wire-format-partially-applied'
+  - 'test-app'
