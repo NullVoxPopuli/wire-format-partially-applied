@@ -63,6 +63,12 @@
   "ember-addon": {
     "version": 2,
     "type": "addon",
-    "main": "addon-main.cjs"
+    "main": "addon-main.cjs",
+    "app-js": {
+      "./components/co-located/class.js": "./dist/_app_/components/co-located/class.js",
+      "./components/co-located/to.js": "./dist/_app_/components/co-located/to.js",
+      "./components/template-tag/class.js": "./dist/_app_/components/template-tag/class.js",
+      "./components/template-tag/to.js": "./dist/_app_/components/template-tag/to.js"
+    }
   }
 }

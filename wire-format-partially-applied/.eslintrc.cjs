@@ -30,12 +30,7 @@ module.exports = {
     },
     // node files
     {
-      files: [
-        './.eslintrc.cjs',
-        './.prettierrc.cjs',
-        './.template-lintrc.cjs',
-        './addon-main.cjs',
-      ],
+      files: ['*.cjs'],
       parserOptions: {
         sourceType: 'script',
       },
